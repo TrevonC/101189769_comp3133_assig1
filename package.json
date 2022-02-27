@@ -1,0 +1,32 @@
+{
+  "name": "101189769_comp3133_assig1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TrevonC/101189769_comp3133_assig1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TrevonC/101189769_comp3133_assig1/issues"
+  },
+  "homepage": "https://github.com/TrevonC/101189769_comp3133_assig1#readme",
+  "dependencies": {
+    "apollo-server-express": "^2.25.3",
+    "body-parser": "^1.19.2",
+    "cors": "^2.8.5",
+    "express": "^4.17.3",
+    "express-graphql": "^0.12.0",
+    "graphql": "^15.8.0",
+    "mongoose": "^6.2.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
